@@ -17,7 +17,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_8a960820f07a40593d725fb64741c20b {
+                #map_e9aa121b7257f1a8b145f1ccf2d546c7 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -57,19 +57,19 @@
 <body>
     
     
-            <div class="folium-map" id="map_8a960820f07a40593d725fb64741c20b" ></div>
+            <div class="folium-map" id="map_e9aa121b7257f1a8b145f1ccf2d546c7" ></div>
         
 </body>
 <script>
     
     
-            var map_8a960820f07a40593d725fb64741c20b = L.map(
-                "map_8a960820f07a40593d725fb64741c20b",
+            var map_e9aa121b7257f1a8b145f1ccf2d546c7 = L.map(
+                "map_e9aa121b7257f1a8b145f1ccf2d546c7",
                 {
                     center: [46.5, 10.0],
                     crs: L.CRS.EPSG3857,
                     ...{
-  "zoom": 5,
+  "zoom": 4,
   "zoomControl": true,
   "preferCanvas": false,
 }
@@ -81,7 +81,7 @@
 
         
     
-            var tile_layer_6b6641d4f7a29b23b6ef598d77a50c91 = L.tileLayer(
+            var tile_layer_14199b19cbd951528e67d68e37dff53b = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {
   "minZoom": 0,
@@ -98,177 +98,246 @@
             );
         
     
-            tile_layer_6b6641d4f7a29b23b6ef598d77a50c91.addTo(map_8a960820f07a40593d725fb64741c20b);
+            tile_layer_14199b19cbd951528e67d68e37dff53b.addTo(map_e9aa121b7257f1a8b145f1ccf2d546c7);
         
     
-            var marker_cluster_8dedacd4f0e54c7771d1efe84138ec8b = L.markerClusterGroup(
+            var marker_cluster_403510417620f23e34061b3a524fe6f4 = L.markerClusterGroup(
                 {
 }
             );
         
     
-            var circle_marker_400291e3416ed0c9253c927c5693e106 = L.circleMarker(
+            var circle_marker_1429a5e60d9226eca9cfaf22607bfcab = L.circleMarker(
                 [51.5074, -0.1278],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.5, "stroke": true, "weight": 3}
-            ).addTo(marker_cluster_8dedacd4f0e54c7771d1efe84138ec8b);
+            ).addTo(marker_cluster_403510417620f23e34061b3a524fe6f4);
         
     
-        var popup_696fbbed063093e90b7d1c29a6c9d856 = L.popup({
+        var popup_7694ba834955b815045755036f7d2f75 = L.popup({
   "maxWidth": 250,
 });
 
         
             
-                var html_2ccf716f22a500b535ab0f6fddd90856 = $(`<div id="html_2ccf716f22a500b535ab0f6fddd90856" style="width: 100.0%; height: 100.0%;">     <b>United Kingdom - London</b><br>     Preferred scents: Lavender, Bergamot<br>     Score: 7.5     </div>`)[0];
-                popup_696fbbed063093e90b7d1c29a6c9d856.setContent(html_2ccf716f22a500b535ab0f6fddd90856);
+                var html_72f5e4239962df27e657fe4bc38df2f7 = $(`<div id="html_72f5e4239962df27e657fe4bc38df2f7" style="width: 100.0%; height: 100.0%;">     <b>United Kingdom - London</b><br>     Preferred scents: Lavender, Bergamot<br>     Score: 7.5     </div>`)[0];
+                popup_7694ba834955b815045755036f7d2f75.setContent(html_72f5e4239962df27e657fe4bc38df2f7);
             
         
 
-        circle_marker_400291e3416ed0c9253c927c5693e106.bindPopup(popup_696fbbed063093e90b7d1c29a6c9d856)
+        circle_marker_1429a5e60d9226eca9cfaf22607bfcab.bindPopup(popup_7694ba834955b815045755036f7d2f75)
         ;
 
         
     
     
-            var circle_marker_eb6e6f7b74198bb15378e282650a55ca = L.circleMarker(
+            var circle_marker_b3f770e0bb33e3532385aa3004f58f04 = L.circleMarker(
                 [48.8566, 2.3522],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.0, "stroke": true, "weight": 3}
-            ).addTo(marker_cluster_8dedacd4f0e54c7771d1efe84138ec8b);
+            ).addTo(marker_cluster_403510417620f23e34061b3a524fe6f4);
         
     
-        var popup_b08aa35e056e3c97d1ae937712389b4c = L.popup({
+        var popup_9038ff18c2a2856eea61d2902783c23d = L.popup({
   "maxWidth": 250,
 });
 
         
             
-                var html_005ed5c7384726fac9721438daaecb7f = $(`<div id="html_005ed5c7384726fac9721438daaecb7f" style="width: 100.0%; height: 100.0%;">     <b>France - Paris</b><br>     Preferred scents: Rose, Iris<br>     Score: 9.0     </div>`)[0];
-                popup_b08aa35e056e3c97d1ae937712389b4c.setContent(html_005ed5c7384726fac9721438daaecb7f);
+                var html_c67fb70e4f8af8f41550fa489fd31887 = $(`<div id="html_c67fb70e4f8af8f41550fa489fd31887" style="width: 100.0%; height: 100.0%;">     <b>France - Paris</b><br>     Preferred scents: Rose, Iris<br>     Score: 9.0     </div>`)[0];
+                popup_9038ff18c2a2856eea61d2902783c23d.setContent(html_c67fb70e4f8af8f41550fa489fd31887);
             
         
 
-        circle_marker_eb6e6f7b74198bb15378e282650a55ca.bindPopup(popup_b08aa35e056e3c97d1ae937712389b4c)
+        circle_marker_b3f770e0bb33e3532385aa3004f58f04.bindPopup(popup_9038ff18c2a2856eea61d2902783c23d)
         ;
 
         
     
     
-            var circle_marker_565c744ba31cc62f7fd6bc7b03eacb5d = L.circleMarker(
+            var circle_marker_d44a38efcd233efd70cc904b6f23b357 = L.circleMarker(
                 [45.4408, 12.3155],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.8, "stroke": true, "weight": 3}
-            ).addTo(marker_cluster_8dedacd4f0e54c7771d1efe84138ec8b);
+            ).addTo(marker_cluster_403510417620f23e34061b3a524fe6f4);
         
     
-        var popup_be3bc638e4b2985c3da61cb5a1f83f30 = L.popup({
+        var popup_8d661b8893437661d246e47128a7b7ab = L.popup({
   "maxWidth": 250,
 });
 
         
             
-                var html_a107d401afa727692a1271c9d70a3b51 = $(`<div id="html_a107d401afa727692a1271c9d70a3b51" style="width: 100.0%; height: 100.0%;">     <b>Italy - Venice</b><br>     Preferred scents: Amber, Musk<br>     Score: 6.8     </div>`)[0];
-                popup_be3bc638e4b2985c3da61cb5a1f83f30.setContent(html_a107d401afa727692a1271c9d70a3b51);
+                var html_53b028deec6bf7019fb4bee9499d316f = $(`<div id="html_53b028deec6bf7019fb4bee9499d316f" style="width: 100.0%; height: 100.0%;">     <b>Italy - Venice</b><br>     Preferred scents: Amber, Musk<br>     Score: 6.8     </div>`)[0];
+                popup_8d661b8893437661d246e47128a7b7ab.setContent(html_53b028deec6bf7019fb4bee9499d316f);
             
         
 
-        circle_marker_565c744ba31cc62f7fd6bc7b03eacb5d.bindPopup(popup_be3bc638e4b2985c3da61cb5a1f83f30)
+        circle_marker_d44a38efcd233efd70cc904b6f23b357.bindPopup(popup_8d661b8893437661d246e47128a7b7ab)
         ;
 
         
     
     
-            var circle_marker_c590841039b335890618d8c8945ed0b1 = L.circleMarker(
+            var circle_marker_9708bccbe360a6d97a58c1300c55e38c = L.circleMarker(
                 [43.7696, 11.2558],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.9, "stroke": true, "weight": 3}
-            ).addTo(marker_cluster_8dedacd4f0e54c7771d1efe84138ec8b);
+            ).addTo(marker_cluster_403510417620f23e34061b3a524fe6f4);
         
     
-        var popup_3ca22f6212d4f77ed8fbac7c37d59564 = L.popup({
+        var popup_55f7571559f421c08293b92c83b21a5a = L.popup({
   "maxWidth": 250,
 });
 
         
             
-                var html_ce76c4ebc794ff79d7bb2d5d2cbdbe53 = $(`<div id="html_ce76c4ebc794ff79d7bb2d5d2cbdbe53" style="width: 100.0%; height: 100.0%;">     <b>Italy - Florence</b><br>     Preferred scents: Sandalwood, Jasmine<br>     Score: 7.9     </div>`)[0];
-                popup_3ca22f6212d4f77ed8fbac7c37d59564.setContent(html_ce76c4ebc794ff79d7bb2d5d2cbdbe53);
+                var html_516959071354f17c594ac283946defd2 = $(`<div id="html_516959071354f17c594ac283946defd2" style="width: 100.0%; height: 100.0%;">     <b>Italy - Florence</b><br>     Preferred scents: Sandalwood, Jasmine<br>     Score: 7.9     </div>`)[0];
+                popup_55f7571559f421c08293b92c83b21a5a.setContent(html_516959071354f17c594ac283946defd2);
             
         
 
-        circle_marker_c590841039b335890618d8c8945ed0b1.bindPopup(popup_3ca22f6212d4f77ed8fbac7c37d59564)
+        circle_marker_9708bccbe360a6d97a58c1300c55e38c.bindPopup(popup_55f7571559f421c08293b92c83b21a5a)
         ;
 
         
     
     
-            var circle_marker_a606fcad1c0be39b1bf911a369dd202d = L.circleMarker(
+            var circle_marker_db316adbc13793e69e302031aa899b9d = L.circleMarker(
                 [41.9028, 12.4964],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.2, "stroke": true, "weight": 3}
-            ).addTo(marker_cluster_8dedacd4f0e54c7771d1efe84138ec8b);
+            ).addTo(marker_cluster_403510417620f23e34061b3a524fe6f4);
         
     
-        var popup_a03ada3578cf0d8ba49faff31c1a47d8 = L.popup({
+        var popup_19746b3c36041d269bfeafd1cab4a08d = L.popup({
   "maxWidth": 250,
 });
 
         
             
-                var html_1a69f309ab623da769b732e74cdd6a42 = $(`<div id="html_1a69f309ab623da769b732e74cdd6a42" style="width: 100.0%; height: 100.0%;">     <b>Italy - Rome</b><br>     Preferred scents: Patchouli, Citrus<br>     Score: 8.2     </div>`)[0];
-                popup_a03ada3578cf0d8ba49faff31c1a47d8.setContent(html_1a69f309ab623da769b732e74cdd6a42);
+                var html_c9cfaed690ef82acb2a8caf788883e2d = $(`<div id="html_c9cfaed690ef82acb2a8caf788883e2d" style="width: 100.0%; height: 100.0%;">     <b>Italy - Rome</b><br>     Preferred scents: Patchouli, Citrus<br>     Score: 8.2     </div>`)[0];
+                popup_19746b3c36041d269bfeafd1cab4a08d.setContent(html_c9cfaed690ef82acb2a8caf788883e2d);
             
         
 
-        circle_marker_a606fcad1c0be39b1bf911a369dd202d.bindPopup(popup_a03ada3578cf0d8ba49faff31c1a47d8)
+        circle_marker_db316adbc13793e69e302031aa899b9d.bindPopup(popup_19746b3c36041d269bfeafd1cab4a08d)
         ;
 
         
     
     
-            var circle_marker_32e0e4ce86a1aa4628613e48625a8a3e = L.circleMarker(
+            var circle_marker_9898e53ac26d586cde15cbda4e0a6f63 = L.circleMarker(
                 [45.4642, 9.19],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.7, "stroke": true, "weight": 3}
-            ).addTo(marker_cluster_8dedacd4f0e54c7771d1efe84138ec8b);
+            ).addTo(marker_cluster_403510417620f23e34061b3a524fe6f4);
         
     
-        var popup_f9b8c383d41028ca5d7cf07b57b226b2 = L.popup({
+        var popup_a89d9083d3f1d303401490b55573273c = L.popup({
   "maxWidth": 250,
 });
 
         
             
-                var html_6108c51e4fc0ac1e4872d7412d10eb82 = $(`<div id="html_6108c51e4fc0ac1e4872d7412d10eb82" style="width: 100.0%; height: 100.0%;">     <b>Italy - Milan</b><br>     Preferred scents: Leather, Neroli<br>     Score: 8.7     </div>`)[0];
-                popup_f9b8c383d41028ca5d7cf07b57b226b2.setContent(html_6108c51e4fc0ac1e4872d7412d10eb82);
+                var html_e1f43b64d487f6e9679754bed27246f2 = $(`<div id="html_e1f43b64d487f6e9679754bed27246f2" style="width: 100.0%; height: 100.0%;">     <b>Italy - Milan</b><br>     Preferred scents: Leather, Neroli<br>     Score: 8.7     </div>`)[0];
+                popup_a89d9083d3f1d303401490b55573273c.setContent(html_e1f43b64d487f6e9679754bed27246f2);
             
         
 
-        circle_marker_32e0e4ce86a1aa4628613e48625a8a3e.bindPopup(popup_f9b8c383d41028ca5d7cf07b57b226b2)
+        circle_marker_9898e53ac26d586cde15cbda4e0a6f63.bindPopup(popup_a89d9083d3f1d303401490b55573273c)
         ;
 
         
     
     
-            var circle_marker_a6eeb1c1e1b89db7c7449ca783836283 = L.circleMarker(
+            var circle_marker_2da414b7ebfd28d24363f9b0e02648d1 = L.circleMarker(
                 [47.3769, 8.5417],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.5, "stroke": true, "weight": 3}
-            ).addTo(marker_cluster_8dedacd4f0e54c7771d1efe84138ec8b);
+            ).addTo(marker_cluster_403510417620f23e34061b3a524fe6f4);
         
     
-        var popup_43791c09f82927bdad41093cdf55a895 = L.popup({
+        var popup_a7ad38b875ef35a1d83349f83bef7a25 = L.popup({
   "maxWidth": 250,
 });
 
         
             
-                var html_feffca0f8db6d579657d94c95f28f58e = $(`<div id="html_feffca0f8db6d579657d94c95f28f58e" style="width: 100.0%; height: 100.0%;">     <b>Switzerland - Zurich</b><br>     Preferred scents: Pine, Fresh Air<br>     Score: 6.5     </div>`)[0];
-                popup_43791c09f82927bdad41093cdf55a895.setContent(html_feffca0f8db6d579657d94c95f28f58e);
+                var html_3810073cc278e88213fe8a1cbad48b7f = $(`<div id="html_3810073cc278e88213fe8a1cbad48b7f" style="width: 100.0%; height: 100.0%;">     <b>Switzerland - Zurich</b><br>     Preferred scents: Pine, Fresh Air<br>     Score: 6.5     </div>`)[0];
+                popup_a7ad38b875ef35a1d83349f83bef7a25.setContent(html_3810073cc278e88213fe8a1cbad48b7f);
             
         
 
-        circle_marker_a6eeb1c1e1b89db7c7449ca783836283.bindPopup(popup_43791c09f82927bdad41093cdf55a895)
+        circle_marker_2da414b7ebfd28d24363f9b0e02648d1.bindPopup(popup_a7ad38b875ef35a1d83349f83bef7a25)
         ;
 
         
     
     
-            marker_cluster_8dedacd4f0e54c7771d1efe84138ec8b.addTo(map_8a960820f07a40593d725fb64741c20b);
+            var circle_marker_ae45391de3998a09dd500b19a909e429 = L.circleMarker(
+                [37.206, 127.0624],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_403510417620f23e34061b3a524fe6f4);
+        
+    
+        var popup_061e3a7c925b204b7989d91691109ece = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_88711aa631973d38cabd3708a3b6f7e6 = $(`<div id="html_88711aa631973d38cabd3708a3b6f7e6" style="width: 100.0%; height: 100.0%;">     <b>South Korea - Dongtan</b><br>     Preferred scents: Musk, Sandalwood<br>     Score: 7.2     </div>`)[0];
+                popup_061e3a7c925b204b7989d91691109ece.setContent(html_88711aa631973d38cabd3708a3b6f7e6);
+            
+        
+
+        circle_marker_ae45391de3998a09dd500b19a909e429.bindPopup(popup_061e3a7c925b204b7989d91691109ece)
+        ;
+
+        
+    
+    
+            var circle_marker_8dbc8d52a3e526206321fe5932314dfb = L.circleMarker(
+                [37.2411, 127.1775],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.8, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_403510417620f23e34061b3a524fe6f4);
+        
+    
+        var popup_98a41fa69a4a220de062b66ecc547623 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_e2553d01e5626f5d06dc556fe6f1e8f2 = $(`<div id="html_e2553d01e5626f5d06dc556fe6f1e8f2" style="width: 100.0%; height: 100.0%;">     <b>South Korea - Yongin</b><br>     Preferred scents: Citrus, Musk<br>     Score: 7.8     </div>`)[0];
+                popup_98a41fa69a4a220de062b66ecc547623.setContent(html_e2553d01e5626f5d06dc556fe6f1e8f2);
+            
+        
+
+        circle_marker_8dbc8d52a3e526206321fe5932314dfb.bindPopup(popup_98a41fa69a4a220de062b66ecc547623)
+        ;
+
+        
+    
+    
+            var circle_marker_b45c162f7ed499570682ec24c9a4bf53 = L.circleMarker(
+                [37.5665, 126.978],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_403510417620f23e34061b3a524fe6f4);
+        
+    
+        var popup_34bde6a0a4c2faf560b698a657981253 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_69a49dc62f9fe89b14fe66d7abfd3fcf = $(`<div id="html_69a49dc62f9fe89b14fe66d7abfd3fcf" style="width: 100.0%; height: 100.0%;">     <b>South Korea - Seoul</b><br>     Preferred scents: Floral, Wood<br>     Score: 8.0     </div>`)[0];
+                popup_34bde6a0a4c2faf560b698a657981253.setContent(html_69a49dc62f9fe89b14fe66d7abfd3fcf);
+            
+        
+
+        circle_marker_b45c162f7ed499570682ec24c9a4bf53.bindPopup(popup_34bde6a0a4c2faf560b698a657981253)
+        ;
+
+        
+    
+    
+            marker_cluster_403510417620f23e34061b3a524fe6f4.addTo(map_e9aa121b7257f1a8b145f1ccf2d546c7);
         
 </script>
 </html>
